@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+body {
+  padding: 20px;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: space-around;
+}
+li {
+  border: solid 1px black;
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0.5);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
